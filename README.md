@@ -1,13 +1,9 @@
 jaeger-hotrod
 -------------
 
-Deploy Jaeger
+Deploy Jaeger/HotRod
 
-    kubectl apply -f jaeger/
-
-Deploy Hotrod App
-
-    kubectl apply -f hotrod-deploy/
+    docker-compose up
 
  * Jaeger Query UI: http://localhost:16686
  * Hotrod App: http://localhost:8080
